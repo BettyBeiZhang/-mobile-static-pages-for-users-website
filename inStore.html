@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SOLYO Demo</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/css/style.css">
+    <link rel="stylesheet" href="lib/css/app-utils.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">       
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <div class="pull-right m-sm p">SIGN UP/SIGN IN</div>
+                <a class="navbar-brand" href="#">Store logo</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Product display section -->
+        <section id="product" class="clearfix">
+            <div class="pull-left">
+                <img src="img/dg-floral.jpg" class="productImg">
+            </div>
+            <div class="clearfix">
+                <div class="itemBrand">Dolce & Gabbana</div>
+                <div class="des">Floral Drops</div>
+                <div class="des">Eau De Toilette 1 Oz</div>
+                <p>
+                    Top Notes: neroli, popaya power<br/>
+                    Heart Notes: amaryllis,daffodils<br/>
+                    Base Notes: cashmere, sandalwood<br/>Recommand
+                    for women 
+                </p>
+                <div class="pull-right productInfo">Product info <span class="ml-xl mt-lg">></span></div>
+                <hr class="pull-right hr-50">
+            </div>
+        </section>
+
+        <!-- Play Video section-->
+        <section id="playVideo" class="clearfix">
+            <div class="pull-left abs-center-container">
+                <img src="img/dg-logo.png" class="brandImg">
+                <div class="videoPlay"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+            </div>
+            <div class="pull-right playVideoInfo">Play Video <span class="ml-xl">></span></div>
+            <hr class="pull-right hr-50">
+        </section>
+        <!-- Coupon display section -->
+        <section class="ph">
+            <img src="img/coupon.png" class="couponImg">
+        </section>
+
+        <!-- customer review section  -->
+        <section id="couponSection">
+            <p class="review">Customer Reviews</p>
+            <div class="ratingStars container">
+                <div layout="row" layout-align="center center">
+                    <div flex="50">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <div class="reviews">(586)</div>
+                    </div>
+                    <div flex="50">
+                        <div class="readReviews">Read Reviews<span class="reviews ml-lg">></span></div>
+                    </div>
+                </div>
+                <hr class="mt">
+            </div>
+        </section>
+
+        <!-- shoppingCart and favorite section  -->
+        <section id="shoppingCartSec" layout="row" layout-align="space-around center">
+            <button type="button" class="btn btn-success btn-lg btn-flat green" flex="45"><i class="fa fa-shopping-cart" aria-hidden="true"></i> CART</button>
+            <button type="button" class="btn btn-primary btn-lg btn-flat blue" flex="45"><i class="fa fa-heart" aria-hidden="true"></i> FAVORITE</button>
+        </section>
+    </div>
+</body>
+
+</html>
